@@ -337,7 +337,11 @@ blockquote {
     }
 }
 @media only screen and (min-width: 1025px) {
+    .menu-resume {
+        padding: 20px !important;
+    }
     .header {
+        position: fixed;
         max-height: 100%;
     }
     .header-content,
@@ -416,6 +420,9 @@ blockquote {
 }
         
 @media only screen and (min-width: 1025px) {
+    .menu-resume {
+        min-width: 300px !important;
+    }
     .header-content {
         width: 0;
     }
@@ -514,9 +521,9 @@ blockquote {
     border: 1px solid #2D2747;
     background-color: #2D2747;
     color: #fff;
-    border-radius: 2px;
+    border-radius: 3px;
     display: inline-block;
     font-size: 12px;
-    margin: 0 7px 0;
-    padding: 5px 7px;
+    margin: 0 5px 0;
+    padding: 5px 10px;
 }
