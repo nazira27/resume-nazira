@@ -432,6 +432,7 @@ blockquote {
     }
     .site-menu,
     .site-menu.profile-card-on {
+
         visibility: visible;
         opacity: 1;
         max-width: 320px;
@@ -440,6 +441,9 @@ blockquote {
     .site-menu.profile-card-on {
         display: block;
         max-width: 320px;
+    }
+    .profile-card {
+        padding-top: 50px !important;
     }
 
     .profile-card,
@@ -510,13 +514,19 @@ blockquote {
 /* ============================================================================= 
 8. Custom Styles
 ============================================================================= */
-
+.site-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
 .technologies {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
+.tech-text {
+    border-top: 2px solid #5468e7;
+    padding-top: 10px;
+}
 .technologies li {
     border: 1px solid #2D2747;
     background-color: #2D2747;
@@ -524,6 +534,6 @@ blockquote {
     border-radius: 3px;
     display: inline-block;
     font-size: 12px;
-    margin: 0 5px 0;
+    margin: 10px 5px 0;
     padding: 5px 10px;
 }

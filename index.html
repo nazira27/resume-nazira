@@ -39,6 +39,7 @@
     <script type='text/javascript' src='js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="page-template-default page page-id-59 wp-embed-responsive masthead-fixed full-width singular elementor-default elementor-kit-163 elementor-page elementor-page-59">
     <div class="lm-animated-bg"></div>
@@ -51,7 +52,7 @@
     <!-- /Loading animation -->
     <div class="page-wrapper bg-move-effect">
         <div class="page-content site-content">
-            <header id="site_header" class="header">
+            <header id="site_header" class="header" >
                 <div class="header-content">
                     <div class="menu-button">
                         <span></span>
@@ -63,17 +64,17 @@
                 <div class="site-menu profile-card-on flex-v-align dl-menuwrapper">
                     <div class="profile-card flex-v-align">
                         <div class="profile-card-block">
-                            <div class="profile-img">
+                            <!-- <div class="profile-img">
                                 <a href="index.html">
                                     <img src="images/nazira-photo.png" alt="image">
                                 </a>
-                            </div>
+                            </div> -->
                                 <a href="index.html">
                                     <h3 class="site-title" style="color: #5468e7;">Nazira Torebaeva</h3>
                                 </a>
                                 <h5 class="site-subtitle">Web Developer</h5>
                                 <!-- Social Links -->
-                                <div class="social-links">
+                                <div class="social-links" data-aos="fade-right">
                                     <ul>
                                         <li>
                                             <a href="https://t.me/TorebaevaN" target="_blank"> <i class="fafw fafw-telegram"></i> </a>
@@ -135,8 +136,8 @@
                                                                <div id="home_content_995846a" class="home-content">
                                                                   <div class="row flex-v-align flex-direction-reverse">
                                                                      <div class="col-sm-12 without-padding col-md-6 col-lg-6">
-                                                                        <div class="home-photo">
-                                                                           <div class="hp-inner" style="background-image: url(images/about.png)"></div>
+                                                                        <div class="home-photo" >
+                                                                           <div class="hp-inner" style="background-image: url(images/about.png)" data-aos="fade-left"></div>
                                                                         </div>
                                                                      </div>
                                                                      <div class="col-sm-12 col-md-6 col-lg-6">
@@ -199,6 +200,13 @@
             </div>
          </div>
       </div>
+         
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            duration: 2000
+        });
+      </script>
       <script type='text/javascript' src='js/modernizr.customf.js' id='modernizr-js'></script>
       <script type='text/javascript' src='js/bootstrap.min.js' id='bootstrap-js'></script>
       <script type='text/javascript' src='js/owl.carousel.min.js' id='owl-carousel-js'></script>

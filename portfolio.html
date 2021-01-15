@@ -37,6 +37,7 @@
     <script type='text/javascript' src='js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<body class="page-template-default page page-id-219 wp-embed-responsive masthead-fixed full-width singular elementor-default elementor-kit-163 elementor-page elementor-page-219">
 		<div class="lm-animated-bg"></div>
 		<!-- Loading animation -->
@@ -60,17 +61,12 @@
 					<div class="site-menu profile-card-on flex-v-align dl-menuwrapper" >
 						<div class="profile-card resume-profil flex-v-align">
 							<div class="profile-card-block">
-								<div class="profile-img">
-									<a href="index.html">
-										<img src="images/nazira-photo.png" alt="image">
-									</a>
-								</div>
 								<a href="index.html">
 									<h3 class="site-title" style="color: #5468e7;">Nazira Torebaeva</h3>
 								</a>
 								<h5 class="site-subtitle">Web Developer</h5>
 								<!-- Social Links -->
-								<div class="social-links">
+								<div class="social-links"  data-aos="fade-right">
 									<ul>
 										<li>
 											<a href="https://t.me/TorebaevaN" target="_blank">
@@ -121,18 +117,18 @@
 								<section class="elementor-section elementor-top-section elementor-element elementor-element-1f2f934 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1f2f934" data-element_type="section">
 									<div class="elementor-container elementor-column-gap-default">
 										<div id="portfolio_content_21c0f12" class="portfolio-content" data-categories="9,6,5,8,3,7,4">
-											<div>
-												<div class="w3-animate-left" style="box-shadow: 0 1px 31px rgba(0,0,0,.09); padding: 20px; margin-bottom: 25px; border-radius: 5px;">
+											<div >
+												<div style="box-shadow: 0 1px 31px rgba(0,0,0,.09); padding: 20px; margin-bottom: 25px; border-radius: 5px;">
 													<figure class="item lbaudio" data-groups='["category_all", &quot;category_audio&quot;, &quot;category_soundcloud&quot;]'>
-														<div style="text-transform:uppercase">
-															<h4><a href="https://adstor.uz" target="_blank">adstor.uz</a></h4>
+														<div style="font-family: Arial, Helvetica, sans-serif;">
+															<h4><a href="https://adstor.uz" target="_blank" style=" font-size: 24px !important; font-weight: bold;">adstor.uz</a></h4>
 														</div>	
 														<div class="portfolio-item-img">
 															<img width="1280" height="853" src="images/adstor.png" class="attachment-portfolio-image-two-c size-portfolio-image-two-c wp-post-image" alt="SoundCloud Audio" loading="lazy" title="" />
 															<!-- /Image -->
 														</div>
 														<div style="margin-top: 20px;">
-															<h6>Technologies:</h6>
+															<h6 class="tech-text">Technologies:</h6>
 															<ul class="technologies">
 																<li>
 																	Vuejs
@@ -152,15 +148,15 @@
 												</div>
 												<div style="box-shadow: 0 1px 31px rgba(0,0,0,.09); padding: 20px; margin-bottom: 25px; border-radius: 5px;">
 													<figure class="item lbaudio" data-groups='["category_all", &quot;category_audio&quot;, &quot;category_soundcloud&quot;]'>
-														<div style="text-transform:uppercase">
-															<h4><a href="https://attestatsiya.uz" target="_blank">attestatsiya.uz</a></h4>
+														<div style="font-family: Arial, Helvetica, sans-serif;">
+															<h4><a href="https://attestatsiya.uz" target="_blank" style=" font-size: 24px !important; font-weight: bold;">attestatsiya.uz</a></h4>
 														</div>	
 														<div class="portfolio-item-img">
 															<img width="1280" height="853" src="images/attestatsiya.jpg" class="attachment-portfolio-image-two-c size-portfolio-image-two-c wp-post-image" alt="SoundCloud Audio" loading="lazy" title="" />
 															<!-- /Image -->
 														</div>
 														<div style="margin-top: 20px;">
-															<h6>Technologies:</h6>
+															<h6 class="tech-text">Technologies:</h6>
 															<ul class="technologies">
 																<li>
 																	Vuejs
@@ -180,15 +176,15 @@
 												</div>
 												<div style="box-shadow: 0 1px 31px rgba(0,0,0,.09); padding: 20px; margin-bottom: 25px; border-radius: 5px;">
 													<figure class="item lbaudio" data-groups='["category_all", &quot;category_audio&quot;, &quot;category_soundcloud&quot;]'>
-														<div style="text-transform:uppercase">
-															<h4><a href="https://elmakon.uz" target="_blank">elmakon.uz</a></h4>
+														<div style="font-family: Arial, Helvetica, sans-serif;">
+															<h4><a href="https://elmakon.uz" target="_blank" style=" font-size: 24px !important; font-weight: bold;">elmakon.uz</a></h4>
 														</div>	
 														<div class="portfolio-item-img">
 															<img width="1280" height="853" src="images/elmakon.png" class="attachment-portfolio-image-two-c size-portfolio-image-two-c wp-post-image" alt="SoundCloud Audio" loading="lazy" title="" />
 															<!-- /Image -->
 														</div>
 														<div style="margin-top: 20px;">
-															<h6>Technologies:</h6>
+															<h6 class="tech-text">Technologies:</h6>
 															<ul class="technologies">
 																<li>
 																	Vuejs
@@ -241,6 +237,12 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 2000
+			});
+		</script>
 		<script type='text/javascript' src='js/modernizr.customf.js' id='modernizr-js'></script>
 		<script type='text/javascript' src='js/bootstrap.min.js' id='bootstrap-js'></script>
 		<script type='text/javascript' src='js/owl.carousel.min.js' id='owl-carousel-js'></script>
